@@ -1,0 +1,574 @@
+html {
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-size: 1.5vw;
+  font-family: 'Noto Sans', 'Noto Sans JP', 'sans-serif';
+}
+
+main {
+  margin-bottom: 330px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  border-style: none;
+}
+
+p {
+  line-height: 280%;
+}
+
+h2 {
+  font-size: 3.5vw;
+  font-family: serif;
+}
+
+h3 {
+  font-size: 2.8vw;
+  font-family: serif;
+}
+
+.wrapper {
+  padding: 0 100px;
+  margin:  0;
+}
+
+.content {
+  width: 100%;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #fff;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+}
+
+.head-img {
+  width: 20%;
+}
+
+.head-img img {
+  width: 100%;
+  height: auto;
+  /* padding: 20px 16px; */
+} 
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  width: 70%;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-menu li {
+  font-size: 1.2vw;
+  padding: 10px 0px 10px 60px;
+}
+
+.top-img {
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.intro-head {
+  font-family: serif;
+  margin: 10px;
+}
+
+.intro-head h1 {
+  font-size: 3.5vw;
+}
+
+.intro-head h1 span {
+  font-size: 5vw;
+}
+
+.intro-texts p {
+  padding: 15px 0;
+}
+
+.intro-texts div:nth-child(1){
+  margin-bottom: 25px;
+}
+
+.about {
+  /* padding-top: 20px; */
+  padding-bottom: 350px;
+  background-image: url(../images/長方形\　1.png);
+  background-size: 100% auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about .content {
+  padding-top: 250px;
+}
+
+.about-info {
+  margin-bottom: 50px;
+}
+
+.about-info > p{
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.about-body {
+  display: flex;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text p {
+  padding: 30px 0;
+}
+
+.about-img {
+  width: 50%;
+}
+
+.title {
+  text-align: center;
+  font-family: serif;
+}
+
+.title div {
+  letter-spacing: 3vw;
+}
+
+#faq .title div {
+  letter-spacing: 1vw;
+}
+
+.title h1 {
+  font-size: 5.0vw;
+}
+
+.title h1 span {
+  font-size: 7.5vw;
+}
+
+#faq .title h1 {
+  font-size: 2.5vw;
+}
+
+#faq .title h1 span {
+  font-size: 6.0vw;
+}
+
+.reasons > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons > div:nth-child(1){
+  margin-bottom: 70px;
+}
+
+.reason {
+  padding-top: 40px;
+  width: 48%;
+}
+
+.chart {
+  text-align: center;
+}
+
+#reason1 {
+  margin-right: 40px;
+  background-image: url(../images/ヒト.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 73% 0%;
+}
+
+.reason h2:nth-child(1) {
+  padding: 20px 20px 20px 0;
+}
+#reason1 h2{
+  padding-left: 3.5vw;
+}
+
+
+#reason2 {
+  background-image: url(../images/クツ.png);
+  background-repeat: no-repeat;
+  background-position: 380px 70px;
+  background-size: 30%;
+  background-position: 88% 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#reason3 {
+  margin-right: 40px;
+  background-image: url(../images/ミズ.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: 67% 0%;
+}
+#reason4 {
+  background-image: url(../images/カバン.png);
+  background-repeat: no-repeat;
+  background-position: 340px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: 25%;
+  background-position: 73% 0%;
+}
+
+.reason-png {
+  width: 80%;
+}
+
+#reason1 .chart div {
+  font-size: 2vw;
+  font-weight: bold;
+}
+#reason2 .chart div {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#reason3 .chart {
+  background-image: url(../images/82％.png);
+  background-repeat: no-repeat;
+  background-position: 60px 0;
+  padding-bottom: 320px;
+  background-size: 80%;
+}
+
+#reason4 .chart {
+  background-image: url(../images/90%.png);
+  background-repeat: no-repeat;
+  background-position: 60px 0;
+  padding-bottom: 320px;
+  background-size: 80%;
+}
+
+#reason3 .chart div {
+  padding-top: 80px;
+  font-size: 2vw;
+}
+
+#reason4 .chart div {
+  padding-top: 120px;
+  font-size: 2vw;
+}
+
+.margin {
+  margin-left: 4.8vw;
+}
+
+.reviews {
+  padding-top: 350px;
+  padding-bottom: 370px;
+  background-image: url(../images/長方形\　2.png);
+  background-size: 100% auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#comment1 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　1.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: right 0;
+}
+#comment2 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　4.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right 0;
+}
+#comment3 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　3.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: right 0;
+}
+#comment4 {
+  width: 100%;
+  background-image: url(../images/お客様の声\　2.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: right 0;
+}
+
+.review {
+  margin-top: 90px;
+}
+
+#comment1 .text {
+  width: 55%;
+}
+#comment2 .text {
+  width: 60%;
+}
+#comment3 .text {
+  width: 65%;
+}
+#comment4 .text {
+  width: 68%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#product {
+  margin-bottom: 70px;
+}
+
+#product .title {
+  margin-bottom: 70px;
+}
+
+h4 {
+  font-size: 2.2vw;
+}
+
+.product h4 span {
+  font-size: 2.7vw;
+}
+
+.product p span {
+  font-size: 1.0vw;
+}
+
+.product-detail {
+  text-align: center;
+}
+
+.product-detail h4 {
+  font-family: serif;
+}
+
+.product p {
+  line-height: 200%;
+}
+
+.online-store {
+  width: 100%;
+  margin: 80px 0 150px 0;
+  padding: 30px 0;
+  border: medium solid #333;
+  text-align: center;
+}
+
+.online-store a {
+  width: 100%;
+  padding: 30px 0px;  
+  font-size: 2vw;
+}
+
+.online-store:hover {
+  background-color: #333;
+}
+
+.online-store a:hover{
+  color: #fff;
+}
+
+.question h4 {
+  font-size: 2.7vw;
+  font-family: serif;
+  background-color: rgb(242, 239, 239);
+  padding: 10px;
+}
+
+#faq .title {
+  margin-bottom: 150px;
+}
+
+.question p {
+  margin: 15px 0 30px 0;
+  padding: 0 10px;
+}
+
+.temp {
+  margin-top: 250px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.temp div {
+  width: 18%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(228, 225, 225);
+  padding-left: 100px;
+}
+
+.Co {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.name {
+  font-size: 2vw;
+  padding-top: 40px;
+}
+
+.Co_detail p {
+  font-size: 20px;
+}
+
+.Co_sns {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 157, 255);
+  width: 150px;
+  height: 50px;
+  margin-top: 5px;
+  padding-right: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 55px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.twitter div img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.insta div img {
+  margin-top: 10px;
+}
+
+.twitter_name {
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+}
+.insta_name {
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 767Px) {
+  header {
+
+  }
+
+  .wrapper {
+    padding: 0 5%;
+  }
+
+  .reasons > div {
+    flex-direction: column;
+  }
+
+  .reason {
+    width: 100%;
+  }
+
+  #reason3 .chart{
+    padding-bottom: 55vw;
+  }
+
+  #reason4 .chart{
+    padding-bottom: 50vw;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .product {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .temp {
+    margin-top: 100px;
+  }
+
+  .online-store {
+    width: 80%;
+  }
+
+  main {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    padding: 0 5%;
+  }
+
+  .Co {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
